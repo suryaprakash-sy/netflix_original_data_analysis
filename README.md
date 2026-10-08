@@ -197,57 +197,6 @@ The project uses SQL to answer practical analytical questions such as:
 
 ---
 
-# 📁 Recommended Repository Structure
-
-```text
-netflix-originals-analysis/
-│
-├── data/
-│   └── netflix_originals.csv
-│
-├── sql/
-│   ├── 01_database_setup.sql
-│   ├── 02_table_creation.sql
-│   └── 03_analysis_queries.sql
-│
-├── screenshots/
-│   └── query-results/
-│
-└── README.md
-```
-
----
-
-# 🚀 How to Run the Project
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/suryaprakash-sy/netflix-originals-analysis.git
-```
-
-### 2. Open PostgreSQL
-
-Create the project database:
-
-```sql
-CREATE DATABASE netflix_originals_db;
-```
-
-### 3. Create the project tables
-
-Run the table creation SQL script.
-
-### 4. Load the dataset
-
-Import the Netflix Originals dataset into the appropriate table.
-
-### 5. Run the analysis queries
-
-Execute the SQL analysis script to reproduce the project analysis.
-
----
-
 # 🛠️ Technologies Used
 
 | Technology | Purpose |
@@ -269,12 +218,3 @@ This project demonstrates how PostgreSQL and SQL can be used to transform struct
 The project provides practical experience in **relational database design, SQL querying, data aggregation, genre analysis, rating analysis, and business-oriented data analysis**.
 
 ---
-
-# 👤 Author
-
-**Surya Prakash S**
-
-**Data Analyst | MSc Computer Science**
-
-GitHub:  
-https://github.com/suryaprakash-sy
